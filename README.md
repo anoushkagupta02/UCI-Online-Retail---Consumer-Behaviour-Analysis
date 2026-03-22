@@ -29,10 +29,10 @@ End-to-end customer analytics pipeline built on ~500K real e-commerce transactio
 
 ## Key Techniques
 
-- **OLS-derived RFM weights** — linear regression on rank-normalised R/F/M features to replace subjective equal-weight assumptions  
-- **K-Means with log-transform** — log1p applied to monetary and frequency before StandardScaler to address distribution skew  
-- **Cohort retention matrix** — customer counts pivoted by acquisition cohort and months-since-first-purchase, normalised to retention rates  
-- **SQLite in-memory queries** — pandas DataFrames loaded into SQLite for KPI and segmentation queries without a database dependency  
+- **OLS-derived RFM weights**: linear regression on rank-normalised R/F/M features to replace subjective equal-weight assumptions  
+- **K-Means with log-transform**: log1p applied to monetary and frequency before StandardScaler to address distribution skew  
+- **Cohort retention matrix**: customer counts pivoted by acquisition cohort and months-since-first-purchase, normalised to retention rates  
+- **SQLite in-memory queries**: pandas DataFrames loaded into SQLite for KPI and segmentation queries without a database dependency  
 
 ---
 
